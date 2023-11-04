@@ -5,12 +5,13 @@ namespace WPF2
 
     public partial class MainWindow : Window
     {
+        bool button=false;
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
