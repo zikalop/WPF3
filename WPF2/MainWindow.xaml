@@ -4,7 +4,6 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF2"
-        xmlns:user="clr-namespace:WPF2.text"
         mc:Ignorable="d"
         Title="MainWindow"  Width="450" Height="800">
     <Grid Background="White">
