@@ -5,8 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPF2.text"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-            
+             d:DesignHeight="40" d:DesignWidth="250">
+    <Grid Background="White">
+        <TextBox Name="Box" VerticalContentAlignment="Center" FontSize="16" FontWeight="Light" Background="Transparent" Grid.ColumnSpan="2"/>
+        <TextBlock Text="hello there" VerticalAlignment="Center" FontSize="16" Margin="5,0,0,0" Panel.ZIndex="-1" Background="Transparent" Grid.ColumnSpan="2"/>
+        <Button Content="X" Width="30" HorizontalAlignment="Right" Background="Transparent" BorderThickness="0" Grid.Column="1" Margin="54,0,0,0" Click="Button_Click"/>
     </Grid>
 </UserControl>
