@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"  Width="1920" Height="1080">
     <Grid>
+        <Button Content="spustit" Name="button" Click="button_Click" Width="100" Height="50" Grid.Row="1"/>
+
         <Grid.RowDefinitions>
             <RowDefinition Height=".2*"/>
             <RowDefinition Height=".6*"/>
